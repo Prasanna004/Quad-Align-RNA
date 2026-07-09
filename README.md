@@ -1,11 +1,5 @@
 # Quad-Align-RNA
-![Platform](https://img.shields.io/badge/platform-Linux-success)
-
-![Language](https://img.shields.io/badge/language-Bash-blue)
-
-![License](https://img.shields.io/badge/license-MIT-green)
-
-![RNA-Seq](https://img.shields.io/badge/RNA--Seq-Automated-red)
+![Platform](https://img.shields.io/badge/platform-Linux-success) ![Language](https://img.shields.io/badge/language-Bash-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![RNA-Seq](https://img.shields.io/badge/RNA--Seq-Automated-red)
 
 <p align="center">
 <b>An automated RNA-Seq pipeline supporting BWA, STAR, HISAT2, and Salmon for alignment and quantification.</b>
