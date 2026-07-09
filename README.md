@@ -81,7 +81,9 @@ Designed for researchers, students, and bioinformaticians, Quad-Align-RNA minimi
                             ▼
                  Gene Expression Matrix
 ```
-
+<p align="center">
+  <img src="docs/workflow.png" alt="Quad-Align-RNA Workflow" width="1000">
+</p>
 ---
 
 # Repository Structure
@@ -91,18 +93,9 @@ quad-align-rna/
 │
 ├── scripts/
 │   └── quad_align_rna.sh
-│
-├── example/
-│   ├── README.md
-│   ├── genome.fa
-│   ├── annotation.gtf
-│   ├── sample_1.fastq.gz
-│   └── sample_2.fastq.gz
-│
+│   └── filter_counts.sh
 ├── docs/
 │   └── workflow.png
-│
-├── .gitignore
 ├── LICENSE
 └── README.md
 ```
@@ -114,21 +107,23 @@ quad-align-rna/
 Clone the repository
 
 ```bash
-git clone https://github.com/Prasanna004/quad-align-rna.git
+git clone https://github.com/Prasanna004/Quad-Align-RNA.git
 
-cd quad-align-rna
+cd Quad-Align-RNA
 ```
 
 Make the pipeline executable
 
 ```bash
 chmod +x scripts/quad_align_rna.sh
+chmod +x scripts/filter_counts.sh
 ```
 
 Run the pipeline
 
 ```bash
 ./scripts/quad_align_rna.sh
+./scripts/filter_counts.sh
 ```
 
 ---
@@ -235,36 +230,6 @@ Quad-Align-RNA can be used for
 
 ---
 
-# Future Roadmap
-
-## Version 1.1
-
-- FastQC integration
-- MultiQC reports
-- fastp trimming
-
-## Version 1.2
-
-- DESeq2 integration
-- edgeR integration
-- limma support
-
-## Version 1.3
-
-- GO enrichment
-- KEGG pathway analysis
-- Reactome enrichment
-
-## Version 2.0
-
-- Interactive HTML reports
-- Docker support
-- Nextflow workflow
-- Snakemake workflow
-- Automatic report generation
-
----
-
 # Citation
 
 If you use **Quad-Align-RNA** in your research, please cite this repository. A formal software publication will be added in a future release.
@@ -273,19 +238,9 @@ If you use **Quad-Align-RNA** in your research, please cite this repository. A f
 
 # Author
 
-**Prasanna Kumar S**
+**Prasanna Selvam**
 
 Bioinformatician | Computational Biologist | PhD Researcher
-
-Founder, IndoGenX
-
-Research Interests
-
-- Transcriptomics
-- Comparative Genomics
-- Machine Learning
-- Bioinformatics Pipeline Development
-- Precision Medicine
 
 GitHub: https://github.com/Prasanna004
 
