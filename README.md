@@ -82,7 +82,7 @@ Designed for researchers, students, and bioinformaticians, Quad-Align-RNA minimi
                  Gene Expression Matrix
 ```
 <p align="center">
-  <img src="docs/workflow.png" alt="Quad-Align-RNA Workflow" width="1000">
+<img src="Docs/Quad-Align-RNA%20workflow%20diagram.png" width="1000">
 </p>
 ---
 
